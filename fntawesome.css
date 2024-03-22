@@ -1,0 +1,60 @@
+.parent {
+
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.p1 {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.p2 {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.p3 {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.p4 {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.p5 {
+    background-color: rgb(0, 255, 76);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
